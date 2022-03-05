@@ -1,0 +1,7 @@
+
+Reactor
+
+    url                 :string
+    last_modified       :string
+    foming              :boolean
+    tagged              :boolean
