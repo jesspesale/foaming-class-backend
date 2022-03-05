@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_05_185159) do
+ActiveRecord::Schema.define(version: 2022_03_05_194638) do
 
   create_table "reactors", force: :cascade do |t|
     t.string "url"
-    t.string "last_modified"
+    t.string "lastModified"
     t.boolean "foaming"
     t.boolean "tagged"
     t.datetime "created_at", precision: 6, null: false
