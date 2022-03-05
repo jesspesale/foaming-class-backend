@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :reactors
+  resources :reactors, only: [:index, :show, :create, :update]
 end
