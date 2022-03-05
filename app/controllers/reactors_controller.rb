@@ -1,0 +1,2 @@
+class ReactorsController < ApplicationController
+end
