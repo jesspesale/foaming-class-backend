@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2022_03_05_194638) do
   create_table "reactors", force: :cascade do |t|
     t.string "url"
     t.string "lastModified"
-    t.boolean "foaming"
-    t.boolean "tagged"
+    t.boolean "foaming", default: false
+    t.boolean "tagged", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
